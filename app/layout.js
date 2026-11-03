@@ -35,6 +35,9 @@ export const metadata = {
   description: siteMeta.description,
   applicationName: siteMeta.titleSuffix,
   keywords: siteMeta.keywords,
+  verification: {
+    google: "gFNW3zkm6grfHGJlF8t0XIQG-ikVEkdkwkeScB8nNl8"
+  },
   authors: [{ name: personal.name, url: siteMeta.siteUrl }],
   creator: personal.name,
   publisher: personal.name,
