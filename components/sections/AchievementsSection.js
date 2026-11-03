@@ -44,7 +44,7 @@ export default function AchievementsSection() {
   }, [reducedMotion]);
 
   return (
-    <section id="achievements" data-section ref={sectionRef} className="relative py-20 md:py-28">
+    <section id="achievements" data-section ref={sectionRef} className="relative py-14 md:py-20">
       <div className="achievement-glow pointer-events-none absolute right-10 top-16 h-40 w-40 rounded-full bg-neon-amber/20 blur-[90px]" />
 
       <div className="section-shell">

@@ -54,7 +54,7 @@ export default function SkillsSection() {
   }, [reducedMotion]);
 
   return (
-    <section id="skills" data-section ref={sectionRef} className="relative py-20 md:py-28">
+    <section id="skills" data-section ref={sectionRef} className="relative py-14 md:py-20">
       <div className="section-shell">
         <p className="label-chip">{getSceneLabel("skills", locale)} / {t("مهارت‌ها")}</p>
         <div className="skills-title mt-6 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">

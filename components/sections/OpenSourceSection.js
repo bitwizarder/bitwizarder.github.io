@@ -56,7 +56,7 @@ export default function OpenSourceSection() {
   ), [status, t]);
 
   return (
-    <section id="oss" data-section ref={sectionRef} className="relative overflow-hidden py-20 md:py-28">
+    <section id="oss" data-section ref={sectionRef} className="relative overflow-hidden py-14 md:py-20">
       <div className="oss-ambient section-ambient pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,rgba(55,244,255,0.12),transparent_38%),radial-gradient(circle_at_20%_90%,rgba(255,77,184,0.14),transparent_40%)]" />
 
       <div className="section-shell relative z-10">

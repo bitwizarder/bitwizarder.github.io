@@ -48,7 +48,7 @@ export default function EducationSection() {
   }, [reducedMotion]);
 
   return (
-    <section id="education" data-section ref={sectionRef} className="relative overflow-hidden py-20 md:py-28">
+    <section id="education" data-section ref={sectionRef} className="relative overflow-hidden py-14 md:py-20">
       <div className="education-ambient section-ambient pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_15%_10%,rgba(55,244,255,0.12),transparent_42%),radial-gradient(circle_at_85%_78%,rgba(159,92,255,0.15),transparent_38%)]" />
 
       <div className="section-shell relative z-10">

@@ -78,7 +78,7 @@ export default function ExperienceSection() {
   }, [locale, reducedMotion]);
 
   return (
-    <section id="experience" data-section ref={sectionRef} className="relative overflow-hidden py-20 md:py-28">
+    <section id="experience" data-section ref={sectionRef} className="relative overflow-hidden py-14 md:py-20">
       <div className="experience-texture section-ambient pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_80%_15%,rgba(255,185,121,0.12),transparent_36%),radial-gradient(circle_at_20%_85%,rgba(159,92,255,0.14),transparent_38%)]" />
 
       <div className="section-shell relative z-10">

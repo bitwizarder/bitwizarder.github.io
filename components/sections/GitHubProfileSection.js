@@ -52,7 +52,7 @@ export default function GitHubProfileSection() {
   const publicRepos = githubSnapshot?.profile?.publicRepos ?? 0;
 
   return (
-    <section id="github" data-section ref={sectionRef} className="relative overflow-hidden py-20 md:py-28">
+    <section id="github" data-section ref={sectionRef} className="relative overflow-hidden py-14 md:py-20">
       <div className="section-ambient pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_18%_12%,rgba(55,244,255,0.11),transparent_36%),radial-gradient(circle_at_85%_80%,rgba(159,92,255,0.13),transparent_40%)]" />
 
       <div className="section-shell relative z-10">

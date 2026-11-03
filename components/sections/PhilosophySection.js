@@ -63,7 +63,7 @@ export default function PhilosophySection() {
   }, [reducedMotion]);
 
   return (
-    <section id="philosophy" data-section ref={sectionRef} className="relative py-20 md:py-28">
+    <section id="philosophy" data-section ref={sectionRef} className="relative py-14 md:py-20">
       <div className="philo-bg pointer-events-none absolute left-1/2 top-1/2 h-[420px] w-[420px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-neon-violet/15 blur-[140px]" />
 
       <div className="section-shell relative z-10 text-center">

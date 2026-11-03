@@ -114,7 +114,7 @@ function PodcastPlayer({ src, title }) {
 
 function StreamBlock({ id, kicker, title, items, primaryKey, secondaryKey, t }) {
   return (
-    <article id={id} className="stream-scene relative py-10 md:py-14">
+    <article id={id} className="stream-scene relative py-8 md:py-10">
       <div className="grid gap-7 lg:grid-cols-12 lg:gap-10">
         <div className="lg:col-span-4">
           <p className="text-[10px] text-neon-cyan">{kicker}</p>
@@ -207,7 +207,7 @@ export default function MediaStreamsSection({ visible = {} }) {
   }, [reducedMotion]);
 
   return (
-    <section ref={sectionRef} className="relative overflow-hidden py-10">
+    <section ref={sectionRef} className="relative overflow-hidden py-6">
       <div className="media-ambient section-ambient pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_12%_15%,rgba(55,244,255,0.12),transparent_35%),radial-gradient(circle_at_88%_85%,rgba(255,77,184,0.12),transparent_38%)]" />
       <div className="section-shell relative z-10">
         {visible.blogs !== false && (
@@ -215,7 +215,7 @@ export default function MediaStreamsSection({ visible = {} }) {
         )}
 
         {visible.podcast !== false && (
-          <article id="podcast" className="stream-scene relative py-14 md:py-20">
+          <article id="podcast" className="stream-scene relative py-8 md:py-10">
             <div className="grid gap-7 lg:grid-cols-12 lg:gap-10">
               <div className="lg:col-span-4">
                 <p className="text-[10px] text-neon-cyan">{getSceneLabel("podcast", locale)} / {t("پادکست")}</p>

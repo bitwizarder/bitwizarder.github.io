@@ -73,7 +73,7 @@ export default function ContactSection() {
   }, [reducedMotion]);
 
   return (
-    <section id="contact" data-section ref={sectionRef} className="relative overflow-hidden pb-16 pt-20 md:pb-20 md:pt-28">
+    <section id="contact" data-section ref={sectionRef} className="relative overflow-hidden pb-12 pt-14 md:pb-16 md:pt-20">
       <div className="contact-ambient absolute -right-8 top-12 h-44 w-44 rounded-full bg-neon-cyan/20 blur-[90px]" />
       <div className="contact-ambient absolute -left-10 bottom-4 h-56 w-56 rounded-full bg-neon-magenta/20 blur-[110px]" />
 

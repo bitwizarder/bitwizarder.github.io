@@ -63,7 +63,7 @@ export default function AboutSection() {
   }, [reducedMotion]);
 
   return (
-    <section id="about" data-section ref={sectionRef} className="relative py-20 md:py-28">
+    <section id="about" data-section ref={sectionRef} className="relative py-14 md:py-20">
       <span className="about-bg-word pointer-events-none absolute left-4 top-10 display-font text-[20vw] font-bold uppercase tracking-[0.12em] text-white/[0.04]">
         {t("هویت")}
       </span>

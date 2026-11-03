@@ -89,7 +89,7 @@ export default function TimelineSection() {
   }, [locale, reducedMotion]);
 
   return (
-    <section id="journey" data-section ref={sectionRef} className="relative py-20 md:py-28">
+    <section id="journey" data-section ref={sectionRef} className="relative py-14 md:py-20">
       <div className="section-shell">
         <div className="mb-10 max-w-3xl">
           <p className="label-chip">{getSceneLabel("journey", locale)} / {t("مسیر شغلی")}</p>

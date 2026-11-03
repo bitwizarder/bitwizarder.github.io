@@ -85,7 +85,7 @@ export default function ProjectsSection() {
   const goPrev = () => selectProject((activeIndex - 1 + projectCount) % projectCount);
 
   return (
-    <section id="projects" data-section ref={sectionRef} className="relative overflow-hidden py-20 md:py-28">
+    <section id="projects" data-section ref={sectionRef} className="relative overflow-hidden py-14 md:py-20">
       <div className="pointer-events-none absolute inset-0 -z-10">
         <div className="section-ambient absolute inset-0 opacity-60" style={{ backgroundImage: activeTheme.gradient }} />
         <div className="grain-overlay section-ambient absolute inset-0" />
@@ -98,7 +98,7 @@ export default function ProjectsSection() {
           </h2>
         </div>
 
-        <div className="mt-14 grid gap-10 lg:grid-cols-12">
+        <div className="mt-10 grid gap-8 lg:grid-cols-12">
           <div className="lg:col-span-4">
             <p className="mb-5 text-[10px] text-silver/65">{t("فهرست پروژه‌ها")}</p>
             <div className="project-hud mb-6">
@@ -151,10 +151,10 @@ export default function ProjectsSection() {
             </div>
           </div>
 
-          <article ref={stageRef} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} className="project-stage project-stage-shell relative isolate overflow-hidden px-1 py-8 md:px-3 lg:col-span-8 lg:px-5 lg:py-10">
+          <article ref={stageRef} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} className="project-stage project-stage-shell relative isolate overflow-hidden px-1 py-5 md:px-3 lg:col-span-8 lg:px-5 lg:py-7">
             <div className="section-ambient absolute inset-0 bg-[radial-gradient(circle_at_15%_12%,rgba(255,255,255,0.05),transparent_45%)]" />
             <div className="relative z-10 grid items-center gap-8 lg:grid-cols-12 lg:gap-10">
-              <div className="relative space-y-5 lg:col-span-6 lg:pl-4">
+              <div className="relative space-y-4 lg:col-span-6 lg:pl-4">
                 <div className="pointer-events-none absolute -right-4 bottom-2 top-2 hidden w-px bg-gradient-to-b from-transparent via-white/20 to-transparent lg:block" />
                 <p className="project-stage-item text-xs text-neon-cyan">{locale === "fa" ? "پروژه" : "Project"} {formatProjectNumber(activeProject.id, locale)} / {t(activeTheme.cue)}</p>
                 <h3 className="project-stage-item display-font text-balance text-3xl font-bold text-white md:text-4xl">{activeProject.title}</h3>
@@ -187,7 +187,7 @@ export default function ProjectsSection() {
 
               <div className="lg:col-span-6">
                 <div className="project-visual-layer relative overflow-hidden [clip-path:polygon(0_0,100%_0,100%_100%,16%_100%,0_87%)]">
-                  <div className="project-visual-inner relative min-h-[260px] md:min-h-[340px]" style={{ backgroundImage: activeTheme.gradient }}>
+                  <div className="project-visual-inner relative min-h-[220px] md:min-h-[280px]" style={{ backgroundImage: activeTheme.gradient }}>
                     <div className="absolute right-5 top-5 flex gap-2">
                       <span className="h-2.5 w-2.5 rounded-full bg-neon-magenta" />
                       <span className="h-2.5 w-2.5 rounded-full bg-neon-violet" />
@@ -196,9 +196,15 @@ export default function ProjectsSection() {
                     <div className="absolute left-4 top-4 rounded-full border border-white/25 bg-black/40 px-3 py-1 backdrop-blur">
                       <p className="text-[10px] text-silver/80">{t("پیش‌نمایش پروژه")}</p>
                     </div>
-                    <div className="absolute bottom-5 right-5 left-5 bg-black/20 p-4 backdrop-blur-sm">
-                      <p className="text-[10px] text-silver/65">{t("فناوری‌های اصلی")}</p>
-                      <p className="mt-2 text-sm text-silver/85">{activeProject.stack.join(" · ")}</p>
+                    <div className="absolute bottom-4 left-4 right-12 rounded-xl border border-white/10 bg-abyss/65 px-3 py-2 backdrop-blur-md">
+                      <p className="text-[10px] text-silver/60">{t("فناوری‌های اصلی")}</p>
+                      <div className="mt-1.5 flex flex-wrap gap-1.5">
+                        {activeProject.stack.map((technology) => (
+                          <span key={technology} className="rounded-full border border-white/10 bg-white/[0.04] px-2 py-0.5 text-[10px] leading-relaxed text-silver/85">
+                            {technology}
+                          </span>
+                        ))}
+                      </div>
                     </div>
                     <div className="absolute -left-10 top-10 h-24 w-24 rounded-full bg-neon-violet/20 blur-2xl" />
                     <div className="absolute -right-10 bottom-14 h-20 w-20 rounded-full bg-neon-cyan/20 blur-2xl" />
