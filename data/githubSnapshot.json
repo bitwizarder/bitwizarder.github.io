@@ -1,0 +1,50 @@
+{
+  "updatedAt": "2026-11-03T11:19:28.887Z",
+  "username": "bitwizarder",
+  "profile": {
+    "login": "bitwizarder",
+    "bio": "Full-stack developer who enjoys building things, solving problems, and turning ideas into working software.",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/233413321?v=4",
+    "url": "https://github.com/bitwizarder",
+    "followers": 1,
+    "following": 0,
+    "publicRepos": 5
+  },
+  "pinnedRepos": [
+    {
+      "name": "bitwizarder",
+      "description": "My developer profile, projects, experiments, and things I'm building.",
+      "language": "Mixed",
+      "stars": 2,
+      "url": "https://github.com/bitwizarder/bitwizarder"
+    },
+    {
+      "name": "markdown-viewer",
+      "description": "A polished, offline-first Chrome extension for writing, previewing, and exporting Markdown documents with Persian, RTL/LTR, code highlighting, Mermaid diagrams, and math support.",
+      "language": "JavaScript",
+      "stars": 2,
+      "url": "https://github.com/bitwizarder/markdown-viewer"
+    },
+    {
+      "name": "divar-clone",
+      "description": "A full-stack Divar-inspired classifieds marketplace built with Laravel 13 and Next.js 16, featuring listings, authentication, admin dashboard, real-time chat, and image management.",
+      "language": "TypeScript",
+      "stars": 2,
+      "url": "https://github.com/bitwizarder/divar-clone"
+    },
+    {
+      "name": "bitwizarder.github.io",
+      "description": "Repository snapshot.",
+      "language": "Mixed",
+      "stars": 0,
+      "url": "https://github.com/bitwizarder/bitwizarder.github.io"
+    },
+    {
+      "name": "multi-arena-privacy",
+      "description": "Repository snapshot.",
+      "language": "HTML",
+      "stars": 0,
+      "url": "https://github.com/bitwizarder/multi-arena-privacy"
+    }
+  ]
+}

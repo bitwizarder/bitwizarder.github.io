@@ -1,0 +1,31 @@
+{
+  "base": {
+    "bg0": "#05060f",
+    "bg1": "#0a0d24",
+    "surfaceA": "#151b48",
+    "surfaceB": "#080a1a",
+    "textMain": "#e6efff",
+    "textSoft": "rgba(230, 239, 255, 0.7)"
+  },
+  "accent": {
+    "violet": "#a78bfa",
+    "cyan": "#22e5ff",
+    "magenta": "#ff3df2",
+    "amber": "#fbbf24"
+  },
+  "background": {
+    "start": "#05060f",
+    "mid": "#0a0d24",
+    "end": "#05060f"
+  },
+  "font": {
+    "display": "syne",
+    "body": "manrope",
+    "mono": "spaceMono"
+  },
+  "loader": {
+    "background": "#05060f",
+    "text": "#22e5ff",
+    "textValue": "م.آ."
+  }
+}
