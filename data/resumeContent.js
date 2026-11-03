@@ -146,7 +146,8 @@ export const projects = [
     stack: ["JavaScript", "Markdown", "RTL / LTR", "Mermaid"],
     impact: "نمایش کد، نمودارها و فرمول‌ها در محیطی یکپارچه و مناسب برای نوشتن مستندات.",
     cta: "مشاهده پروژه",
-    url: "https://github.com/bitwizarder/markdown-viewer"
+    url: "https://github.com/bitwizarder/markdown-viewer",
+    image: "/projects/markdown.jpg" // 👈 مسیر عکس اول
   },
   {
     id: "02",
@@ -155,7 +156,8 @@ export const projects = [
     stack: ["Laravel 13", "Next.js 16", "TypeScript"],
     impact: "شامل ثبت و مدیریت آگهی، احراز هویت، پنل مدیریت و گفت‌وگوی زنده.",
     cta: "مشاهده پروژه",
-    url: "https://github.com/bitwizarder/divar-clone"
+    url: "https://github.com/bitwizarder/divar-clone",
+    image: "/projects/divar.jpg" // 👈 مسیر عکس دوم
   },
   {
     id: "03",
@@ -164,7 +166,8 @@ export const projects = [
     stack: ["Next.js", "React", "Tailwind CSS", "GSAP"],
     impact: "روایتی تعاملی از مسیر حرفه‌ای، مهارت‌ها و پروژه‌های منتخب.",
     cta: "مشاهده کد منبع",
-    url: "https://github.com/bitwizarder/bitwizarder.github.io"
+    url: "https://github.com/bitwizarder/bitwizarder.github.io",
+    image: "/projects/portfolio.jpg" // 👈 مسیر عکس سوم
   }
 ];
 
